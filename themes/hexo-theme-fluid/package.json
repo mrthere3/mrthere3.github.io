@@ -1,0 +1,64 @@
+{
+  "_from": "hexo-theme-fluid",
+  "_id": "hexo-theme-fluid@1.9.3",
+  "_inBundle": false,
+  "_integrity": "sha512-PJhEG1N+0HYK3XA+IbBrb2eHtqHAXJoM9Cy921H9m3gb3syKT0PxURUe4+BKD35ITeXTd8o65ExRintBBfu02Q==",
+  "_location": "/hexo-theme-fluid",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-theme-fluid",
+    "name": "hexo-theme-fluid",
+    "escapedName": "hexo-theme-fluid",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/hexo-theme-fluid/-/hexo-theme-fluid-1.9.3.tgz",
+  "_shasum": "d2047c15878ce5312c69849abd1d70c3ef8deded",
+  "_spec": "hexo-theme-fluid",
+  "_where": "C:\\Users\\wxg\\Desktop\\blog\\hexo",
+  "author": {
+    "name": "Fluid-dev",
+    "url": "https://github.com/fluid-dev"
+  },
+  "bugs": {
+    "url": "https://github.com/fluid-dev/hexo-theme-fluid/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "An elegant Material-Design theme for Hexo.",
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "files": [
+    "languages",
+    "layout",
+    "scripts",
+    "source",
+    "_config.yml"
+  ],
+  "homepage": "https://hexo.fluid-dev.com/docs",
+  "keywords": [
+    "hexo",
+    "theme",
+    "fluid",
+    "material"
+  ],
+  "license": "GPL-V3",
+  "main": "package.json",
+  "name": "hexo-theme-fluid",
+  "peerDependencies": {
+    "nunjucks": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluid-dev/hexo-theme-fluid.git"
+  },
+  "version": "1.9.3"
+}
