@@ -1,5 +1,7 @@
 ---
-title: rabbit学习
+title : rabbitmq学习笔记
+categories : python
+tags : MQ
 ---
 #  python-RabbitMQ从入门到集群架构
 
