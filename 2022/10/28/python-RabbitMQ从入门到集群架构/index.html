@@ -23,11 +23,13 @@
 <meta property="og:site_name" content="王三梦的博客">
 <meta property="og:description" content="python-RabbitMQ从入门到集群架构1. python-RabbitMQ从入门到集群架构1234567# 安装好Docker，执行下面命令docker pull rabbitmq:managementdocker run -di --name Myrabbitmq -e RABBITMQ_DEFAULT_USER&#x3D;admin -e RABBITMQ_DEFAULT_PASS&#x3D;admin">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mrthere3.github.io/pages/%E6%B7%98%E5%AE%9D%E5%BA%97%E9%93%BA%E5%90%8D%E7%B4%A0%E6%9D%90%E5%BD%93%E9%93%BA33.jpg">
 <meta property="article:published_time" content="2022-10-27T17:32:08.146Z">
-<meta property="article:modified_time" content="2022-10-28T16:28:47.468Z">
+<meta property="article:modified_time" content="2022-10-31T14:40:01.175Z">
 <meta property="article:author" content="Wang sanmeng">
 <meta property="article:tag" content="MQ">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://mrthere3.github.io/pages/%E6%B7%98%E5%AE%9D%E5%BA%97%E9%93%BA%E5%90%8D%E7%B4%A0%E6%9D%90%E5%BD%93%E9%93%BA33.jpg">
   
   
   
@@ -69,7 +71,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"mrthere3.github.io","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"mrthere3.github.io","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading94.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -433,6 +435,34 @@
             </div>
 
             
+  <article id="comments" lazyload>
+    
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"Yu9cn7racZ6TkMkaFStimJ3X-gzGzoHsz","appKey":"HtlIrsYx5LBHSordjrE6iqEe","path":"window.location.pathname","placeholder":"昵称支持qq号自动获取，评论头像采用QQ头像","avatar":"monsterid","meta":["nick","mail"],"requiredFields":["nick"],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":true},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
           </article>
         </div>
       </div>
