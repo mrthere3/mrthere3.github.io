@@ -301,7 +301,7 @@ lazyload:
 
   # 加载时的占位图片
   # The placeholder image when loading
-  loading_img: /img/loading.gif
+  loading_img: /img/loading94.gif
 
   # 开启后懒加载仅在文章页生效，如果自定义页面需要使用，可以在 Front-matter 里指定 `lazyload: true`
   # If true, only enable lazyload on the post page. For custom pages, you can set 'lazyload: true' in front-matter
@@ -460,7 +460,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.png
+  banner_img: /img/54.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -724,11 +724,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: valine
 
 
 #---------------------------
@@ -789,13 +789,13 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId:
-  appKey:
+  appId: Yu9cn7racZ6TkMkaFStimJ3X-gzGzoHsz
+  appKey: HtlIrsYx5LBHSordjrE6iqEe
   path: window.location.pathname
-  placeholder:
-  avatar: 'retro'
-  meta: ['nick', 'mail', 'link']
-  requiredFields: []
+  placeholder: 昵称支持qq号自动获取，评论头像采用QQ头像
+  avatar: 'monsterid' # Gravatar style : mp/identicon/monsterid/wavatar/retro/hide
+  meta: ['nick', 'mail']
+  requiredFields: ['nick']
   pageSize: 10
   lang: 'zh-CN'
   highlight: false
@@ -803,7 +803,7 @@ valine:
   serverURLs: ''
   emojiCDN:
   emojiMaps:
-  enableQQ: false
+  enableQQ: true
 
 # Waline
 # 从 Valine 衍生而来，额外增加了服务端和多种功能

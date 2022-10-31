@@ -2,6 +2,7 @@
 title : Vue学习笔记
 categories : JS
 tags : 前端
+index_img: /pages/淘宝店铺名素材当铺47.jpg
 ---
 # *VUE*单文件调试
 

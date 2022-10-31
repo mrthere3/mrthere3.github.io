@@ -2,6 +2,8 @@
 title : Django学习笔记
 categories : python
 tags : DJANGO
+index_img: /pages/淘宝店铺名素材当铺25.jpg
+date: 2022-10-29 10:00:00
 ---
 *DJANGO* 学习
 

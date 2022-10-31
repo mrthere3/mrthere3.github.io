@@ -2,6 +2,7 @@
 title : rabbitmq学习笔记
 categories : python
 tags : MQ
+index_img: /pages/淘宝店铺名素材当铺33.jpg
 ---
 #  python-RabbitMQ从入门到集群架构
 
