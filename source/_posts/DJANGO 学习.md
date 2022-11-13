@@ -4,6 +4,8 @@ categories : python
 tags : DJANGO
 index_img: /pages/淘宝店铺名素材当铺25.jpg
 date: 2022-10-29 10:00:00
+swiper_index: 2
+cover: /pages/淘宝店铺名素材当铺25.jpg
 ---
 *DJANGO* 学习
 

@@ -98,8 +98,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: fluid  # 指定主题
-theme: hexo-theme-fluid
-#theme: hexo-theme-butte rfly
+#theme: hexo-theme-fluid
+theme: hexo-theme-butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
@@ -107,3 +107,10 @@ deploy:
   repository: git@github.com:mrthere3/mrthere3.github.io.git
   branch: master
 
+butterfly_article_double_row:
+  enable: true
+
+search:
+  path: search.xml
+  field: post
+  content: true
