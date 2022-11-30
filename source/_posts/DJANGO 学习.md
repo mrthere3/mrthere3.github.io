@@ -2,10 +2,10 @@
 title : Django学习笔记
 categories : python
 tags : DJANGO
-index_img: /pages/淘宝店铺名素材当铺25.jpg
+index_img: https://source.wjwsm.top/25.jpg
 date: 2022-10-29 10:00:00
 swiper_index: 2
-cover: /pages/淘宝店铺名素材当铺25.jpg
+cover: https://source.wjwsm.top/25.jpg
 ---
 *DJANGO* 学习
 

@@ -19,8 +19,8 @@ menu:
 
 highlight_theme: pale night #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
-#highlight_lang: true # show the code language
-highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_lang: true # show the code language
+highlight_shrink: flase # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: false # unit: px
 code_word_wrap: false
 
@@ -88,31 +88,31 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /pages/淘宝店铺名素材当铺3.jpg
+index_img: https://www.source.wjwsm.top//3.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /pages/淘宝店铺名素材当铺3.jpg
+default_top_img: https://www.source.wjwsm.top//3.jpg
 
 # The banner image of archive page
-archive_img: /pages/淘宝店铺名素材当铺47.jpg
+archive_img: https://www.source.wjwsm.top//47.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: /pages/淘宝店铺名素材当铺57.jpg
+tag_img: https://www.source.wjwsm.top//57.jpg
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: /pages/淘宝店铺名素材当铺23.jpg
+tag_per_img: https://www.source.wjwsm.top//57.jpg
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: /pages/淘宝店铺名素材当铺25.jpg
+category_img: https://www.source.wjwsm.top//23.jpg
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: /pages/淘宝店铺名素材当铺28.jpg
+category_per_img: https://www.source.wjwsm.top//8.jpg
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -519,7 +519,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(/pages/淘宝店铺名素材当铺33.jpg)
+background: url(https://source.wjwsm.top/20221201012459.jpg)
 
 # Footer Background
 footer_bg: false
@@ -975,9 +975,9 @@ categoryBar:
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
     - descr: python
-      cover: /pages/淘宝店铺名素材当铺47.jpg
+      cover: https://source.wjwsm.top/420%20.jpg
     - descr: js
-      cover: /pages/淘宝店铺名素材当铺28.jpg
+      cover: https://source.wjwsm.top/20221201012141.jpg
 
 
   custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
