@@ -2,9 +2,9 @@
 title : rabbitmq学习笔记
 categories : python
 tags : MQ
-index_img: https://source.wjwsm.top/33.jpg
 cover: https://source.wjwsm.top/33.jpg
 swiper_index: 3
+date: 2022-10-23 10:00:00
 ---
 #  python-RabbitMQ从入门到集群架构
 

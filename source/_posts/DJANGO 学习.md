@@ -2,8 +2,8 @@
 title : Django学习笔记
 categories : python
 tags : DJANGO
-index_img: https://source.wjwsm.top/25.jpg
 date: 2022-10-29 10:00:00
+updated: 2022-11-29
 swiper_index: 2
 cover: https://source.wjwsm.top/25.jpg
 ---
