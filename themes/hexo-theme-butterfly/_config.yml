@@ -978,6 +978,8 @@ categoryBar:
       cover: https://source.wjwsm.top/420%20.jpg
     - descr: js
       cover: https://source.wjwsm.top/20221201012141.jpg
+    - descr: 运维
+      cover: https://source.wjwsm.top/23.jpg
 
 
   custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
