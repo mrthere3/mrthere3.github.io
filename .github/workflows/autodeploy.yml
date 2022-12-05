@@ -43,7 +43,14 @@ jobs:
 
       - name: 生成静态文件
         run: |
-          hexo clean && hexo g && hexo d
+          hexo clean && hexo g
+
+      - name: 部署到github pages
+        run: |
+          git config --global user.name "mrthere3"
+          git config --global user.email "871780968@qq.com"
+          hexo deploy
+
 
       - name: 部署到云服务器
         uses: cross-the-world/scp-pipeline@master
