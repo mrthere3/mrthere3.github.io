@@ -41,16 +41,9 @@ jobs:
         run: |
           npm install --save
 
-      - name: 生成静态文件
-        run: |
-          hexo clean && hexo g
-
       - name: 部署到github pages
         run: |
-          git config --global user.name "mrthere3"
-          git config --global user.email "871780968@qq.com"
-          hexo deploy
-
+          git clone git@github.com:mrthere3/mrthere3.github.io.git -b master
 
       - name: 部署到云服务器
         uses: cross-the-world/scp-pipeline@master
@@ -59,7 +52,7 @@ jobs:
           user: ${{ secrets.USER_NAME }}
           pass: ${{ secrets.USER_PASS }}
           connect_timeout: 10s
-          local: './.deploy_git/*'
+          local: './*'
           remote: /www/wsm.top
 
 
