@@ -58,13 +58,13 @@ jobs:
 #          hexo deploy
 
       - name: 部署到云服务器
-        uses: cross-the-world/scp-pipeline@dev
+        uses: cross-the-world/scp-pipeline@master
         with:
           host: ${{ secrets.USER_HOST }}
           user: ${{ secrets.USER_NAME }}
           pass: ${{ secrets.USER_PASS }}
           connect_timeout: 10s
           local: './.deploy_git/*'
-          remote: /www/wwwroot/wjwsm.top
+          remote: '/www/wwwroot/wjwsm.top'
 
 
