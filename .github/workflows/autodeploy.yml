@@ -43,7 +43,7 @@ jobs:
 
       - name: 部署到github pages
         run: |
-          git clone git@github.com:mrthere3/mrthere3.github.io.git -b master
+          git clone https://github.com/mrthere3/mrthere3.github.io.git -b master
 
       - name: 部署到云服务器
         uses: cross-the-world/scp-pipeline@master
