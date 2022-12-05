@@ -65,6 +65,6 @@ jobs:
           pass: ${{ secrets.USER_PASS }}
           connect_timeout: 10s
           local: './.deploy_git/*'
-          remote: '/www/wwwroot/wjwsm.top'
+          remote: /www/wsm.top
 
 
