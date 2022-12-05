@@ -11,7 +11,7 @@ on:
       - published
 
 jobs:
-  checkout:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: 检查分支
@@ -58,7 +58,7 @@ jobs:
 #          hexo deploy
 
       - name: 部署到云服务器
-        uses: cross-the-world/scp-pipeline@master
+        uses: cross-the-world/scp-pipeline@dev
         with:
           host: ${{ secrets.USER_HOST }}
           user: ${{ secrets.USER_NAME }}
