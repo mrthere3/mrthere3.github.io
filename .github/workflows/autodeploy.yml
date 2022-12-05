@@ -43,7 +43,7 @@ jobs:
 
       - name: 部署到github pages
         run: |
-          git clone https://github.com/mrthere3/mrthere3.github.io.git -b master
+          git clone https://github.com/mrthere3/mrthere3.github.io.git -b master ./deplay_git
 
       - name: 部署到云服务器
         uses: cross-the-world/scp-pipeline@master
@@ -52,7 +52,7 @@ jobs:
           user: ${{ secrets.USER_NAME }}
           pass: ${{ secrets.USER_PASS }}
           connect_timeout: 10s
-          local: './*'
+          local: './deplay_git/*'
           remote: /www/wsm.top
 
 
