@@ -1,5 +1,5 @@
 ---
-title : Nginx部署内容
+title : Nginx部署只是
 categories : 运维
 tags : nginx
 cover: https://source.wjwsm.top/97.jpg
