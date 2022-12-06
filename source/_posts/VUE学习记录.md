@@ -3,7 +3,7 @@ title : Vue学习笔记
 categories : JS
 tags : 前端
 cover: http://source.wjwsm.top/47.jpg
-swiper_index: 1
+swiper_index: 2
 date: 2022-11-12 10:00:00
 ---
 # *VUE*单文件调试
