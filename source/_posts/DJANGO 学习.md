@@ -5,7 +5,7 @@ tags : DJANGO
 date: 2022-10-29 10:00:00
 updated: 2022-11-29
 swiper_index: 2
-cover: https://source.wjwsm.top/25.jpg
+cover: http://source.wjwsm.top/25.jpg
 ---
 *DJANGO* 学习
 

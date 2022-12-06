@@ -2,7 +2,7 @@
 title : Nginx部署内容
 categories : 运维
 tags : nginx
-cover: https://source.wjwsm.top/97.jpg
+cover: http://source.wjwsm.top/97.jpg
 swiper_index: 5
 date: 2022-12-03 10:20:00
 ---

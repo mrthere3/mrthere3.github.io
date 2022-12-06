@@ -2,7 +2,7 @@
 title : Hello World
 categories : python
 tags : hello
-cover: https://source.wjwsm.top/24.jpg
+cover: http://source.wjwsm.top/24.jpg
 swiper_index: 4
 date: 2022-10-18 10:00:00
 ---

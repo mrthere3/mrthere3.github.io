@@ -2,7 +2,7 @@
 title : Vue学习笔记
 categories : JS
 tags : 前端
-cover: https://source.wjwsm.top/47.jpg
+cover: http://source.wjwsm.top/47.jpg
 swiper_index: 1
 date: 2022-11-12 10:00:00
 ---

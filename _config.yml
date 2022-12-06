@@ -107,6 +107,11 @@ deploy:
   repository: git@github.com:mrthere3/mrthere3.github.io.git
   branch: master
 
+#deploy:
+#  type: "git"
+#  repository: git@47.92.194.167:/home/git/blog
+#  branch: master
+
 butterfly_article_double_row:
   enable: true
 
