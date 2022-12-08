@@ -77,7 +77,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: http://source.wjwsm.top/圣诞网站图标.png
 
 # Avatar (頭像)
 avatar:
@@ -399,7 +399,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo-mrthere3.vercel.app/
+  envId: https://wjwsm.top/twikooserve
   region: us-west-2
   visitor: false
   option:
