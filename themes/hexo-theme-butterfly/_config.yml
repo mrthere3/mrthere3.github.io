@@ -575,8 +575,13 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(http://source.wjwsm.top/20221201012459.jpg)
-
+#background: url(http://source.wjwsm.top/20221201012459.jpg)
+# Website Background (設置網站背景)
+# can set it to color or image (可設置圖片 或者 顔色)
+# The formal of image: url(http://xxxxxx.com/xxx.jpg)
+background: url(https://source.wjwsm.top/dream.jpg)
+#黑暗主题下文件的位置
+background_dark: url(https://source.wjwsm.top/sunset.jpg)
 # Footer Background
 footer_bg: false
 
@@ -941,6 +946,7 @@ inject:
   head:
     - <link rel="stylesheet" href="/css/localcss/custom.css" media="defer" onload="this.media='all'">
   bottom:
+    - <script src="/js/sun_moon.js" async></script>
     # - <script src="xxxx"></script>
 
 # CDN

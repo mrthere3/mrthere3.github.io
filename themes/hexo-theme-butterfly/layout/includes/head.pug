@@ -63,6 +63,8 @@ if theme.blog_title_font &&　theme.blog_title_font.font_link
 
 include ./head/config_site.pug
 include ./head/noscript.pug
+  //- 昼夜模式切换动画
+include ./sun_moon.pug
 
 !=fragment_cache('injectHeadJs', function(){return inject_head_js()})
 
