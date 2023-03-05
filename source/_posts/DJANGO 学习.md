@@ -5,7 +5,7 @@ tags : DJANGO
 date: 2022-10-29 10:00:00
 updated: 2022-11-29
 swiper_index: 6
-cover: http://source.wjwsm.top/25.jpg
+cover: https://source.wjwsm.top/annie-spratt-wuc-KEIBrdE-unsplash.jpg
 ---
 *DJANGO* 学习
 

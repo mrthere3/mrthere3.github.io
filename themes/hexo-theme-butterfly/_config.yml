@@ -88,31 +88,31 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: http://source.wjwsm.top/3.jpg
+#index_img: http://source.wjwsm.top/3.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: http://source.wjwsm.top/3.jpg
+#default_top_img: http://source.wjwsm.top/3.jpg
 
 # The banner image of archive page
-archive_img: http://source.wjwsm.top/47.jpg
+#archive_img: http://source.wjwsm.top/47.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: http://source.wjwsm.top/57.jpg
+#tag_img: http://source.wjwsm.top/57.jpg
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: http://source.wjwsm.top/57.jpg
+#tag_per_img: http://source.wjwsm.top/57.jpg
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: http://source.wjwsm.top/23.jpg
+#category_img: http://source.wjwsm.top/23.jpg
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: http://source.wjwsm.top/8.jpg
+#category_per_img: http://source.wjwsm.top/8.jpg
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -124,7 +124,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-     - http://source.wjwsm.top/8.jpg
+     - https://source.wjwsm.top/ricky-kharawala-adK3Vu70DEQ-unsplash%20(1).jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -135,7 +135,7 @@ error_img:
 error_404:
   enable: false
   subtitle: 'Page Not Found'
-  background: http://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: https://source.wjwsm.top/404.png
 
 post_meta:
   page: # Home Page
@@ -910,7 +910,7 @@ pangu:
 lazyload:
   enable: true
   field: site/post # site/post
-  placeholder: http://source.wjwsm.top/8.jpg
+  placeholder: https://source.wjwsm.top/ricky-kharawala-adK3Vu70DEQ-unsplash%20(1).jpg
   blur: false
 
 # PWA
@@ -1038,11 +1038,15 @@ categoryBar:
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
     - descr: python
-      cover: http://source.wjwsm.top/420%20.jpg
+      cover: https://source.wjwsm.top/dan-rogers-lMIvz5b1vRo-unsplash.jpg
     - descr: js
-      cover: http://source.wjwsm.top/20221201012141.jpg
+      cover: https://source.wjwsm.top/kent-tupas-WaUcTYPfiCU-unsplash.jpg
     - descr: 运维
-      cover: http://source.wjwsm.top/23.jpg
+      cover: https://source.wjwsm.top/maxime-gauthier-aBrM3LLqJX4-unsplash.jpg
+    - descr: java
+      cover: https://source.wjwsm.top/michael-d-rnKqWvO80Y4-unsplash.jpg
+
+
 
 
   custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css

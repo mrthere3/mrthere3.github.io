@@ -2,7 +2,7 @@
 title : Vue学习笔记
 categories : JS
 tags : 前端
-cover: http://source.wjwsm.top/47.jpg
+cover: https://source.wjwsm.top/takashi-miyazaki-ZXG8JPS8CEk-unsplash.jpg
 swiper_index: 2
 date: 2022-11-12 10:00:00
 ---

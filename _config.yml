@@ -109,7 +109,7 @@ theme: hexo-theme-butterfly
 
 deploy:
   type: "git"
-  repository: git@47.92.194.167:/home/git/blog
+  repository: git@101.35.43.82:/home/git/blog
   branch: master
 
 butterfly_article_double_row:
