@@ -1034,16 +1034,16 @@ categoryBar:
     type: id
     name: recent-posts
     index: 0
-  column: odd # odd：3列 | even：4列
+  column: even # odd：3列 | even：4列
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
     - descr: python
       cover: https://source.wjwsm.top/dan-rogers-lMIvz5b1vRo-unsplash.jpg
-    - descr: js
+    - descr: java
       cover: https://source.wjwsm.top/kent-tupas-WaUcTYPfiCU-unsplash.jpg
     - descr: 运维
       cover: https://source.wjwsm.top/maxime-gauthier-aBrM3LLqJX4-unsplash.jpg
-    - descr: java
+    - descr: js
       cover: https://source.wjwsm.top/michael-d-rnKqWvO80Y4-unsplash.jpg
 
 
