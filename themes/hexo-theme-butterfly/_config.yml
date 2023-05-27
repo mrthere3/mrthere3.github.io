@@ -579,7 +579,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://source.wjwsm.top/dream.jpg)
+background: url(https://source.wjwsm.top/dawn2.jpg)
 #黑暗主题下文件的位置
 background_dark: url(https://source.wjwsm.top/sunset.jpg)
 # Footer Background
@@ -1037,13 +1037,13 @@ categoryBar:
   column: even # odd：3列 | even：4列
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
-    - descr: python
+    - descr: 仔细钻研
       cover: https://source.wjwsm.top/dan-rogers-lMIvz5b1vRo-unsplash.jpg
-    - descr: java
+    - descr: go不都学
       cover: https://source.wjwsm.top/kent-tupas-WaUcTYPfiCU-unsplash.jpg
-    - descr: 运维
+    - descr: 自给自足
       cover: https://source.wjwsm.top/maxime-gauthier-aBrM3LLqJX4-unsplash.jpg
-    - descr: js
+    - descr: 回调地狱
       cover: https://source.wjwsm.top/michael-d-rnKqWvO80Y4-unsplash.jpg
 
 
