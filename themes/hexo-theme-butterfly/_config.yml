@@ -481,9 +481,9 @@ messenger:
 # --------------------------------------
 footer:
   owner:
-    enable: false
+    enable: true
     since: 2020
-  custom_text:
+  custom_text: 皖ICP备 2022016581号-1
   copyright: false # Copyright of theme and framework
 
 # Analysis
@@ -1039,12 +1039,14 @@ categoryBar:
   message:
     - descr: 仔细钻研
       cover: https://source.wjwsm.top/dan-rogers-lMIvz5b1vRo-unsplash.jpg
-    - descr: go不都学
+    - descr: 太难了
       cover: https://source.wjwsm.top/kent-tupas-WaUcTYPfiCU-unsplash.jpg
-    - descr: 自给自足
+    - descr: 尝试一下
       cover: https://source.wjwsm.top/maxime-gauthier-aBrM3LLqJX4-unsplash.jpg
-    - descr: 回调地狱
+    - descr: 这怎么学
       cover: https://source.wjwsm.top/michael-d-rnKqWvO80Y4-unsplash.jpg
+    - descr: 好好学
+      cover: https://source.wjwsm.top/snowman_winter_tradition-wallpaper-1600x900.jpg
 
 
 
@@ -1085,4 +1087,3 @@ wowjs:
   animate_css: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css
   wow_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js
   wow_init_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js
-
