@@ -1,7 +1,7 @@
 ---
 title : Django学习笔记
-categories : python
-tags : DJANGO
+categories : [python]
+tags : [DJANGO]
 date: 2022-10-29 10:00:00
 updated: 2022-11-29
 swiper_index: 6

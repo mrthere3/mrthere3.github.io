@@ -1,10 +1,10 @@
 ---
 title : MYBATIS基本使用总结
-categories : java
-tags : mysql
+categories : [java]
+tags : [mysql]
 cover: https://source.wjwsm.top/crown-4HWiHMDFN4c-unsplash.jpg
 swiper_index: 4
-date: 2023-03-03 14:00
+date: 2023-03-03
 ---
 
 

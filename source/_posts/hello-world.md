@@ -1,7 +1,7 @@
 ---
 title : Hello World
-categories : python
-tags : hello
+categories : [python]
+tags : [hello]
 cover: https://source.wjwsm.top/mona-eendra-vC8wj_Kphak-unsplash.jpg
 date: 2022-10-18 10:00:00
 ---

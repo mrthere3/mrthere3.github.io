@@ -1,9 +1,9 @@
 ---
 cover: https://source.wjwsm.top/snowman_winter_tradition-wallpaper-1600x900.jpg
-categories: go
-created: 2023-10-30 11:52
+categories: [go]
+created: 2023-10-30
 title: zap 介绍与使用
-updated: 2023-10-30 11:53
+date: 2023-10-30
 tags: [Go]
 aliases: [zap 介绍与使用]
 linter-yaml-title-alias: zap 介绍与使用
@@ -181,7 +181,7 @@ zapcore.Core 需要三个配置——Encoder，WriteSyncer，LogLevel。
 ```
 
 3. Log Level：哪种级别的日志将被写入。
-   
+  
    我们将修改上述部分中的Logger代码，并重写InitLogger()方法。其余方法—main() /SimpleHttpGet()保持不变。
 
 ```go

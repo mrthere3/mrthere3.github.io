@@ -1,7 +1,7 @@
 ---
 title : rabbitmq学习笔记
-categories : python
-tags : MQ
+categories : [python]
+tags : [MQ]
 cover: https://source.wjwsm.top/mulyadi-wYzjL5BwiEI-unsplash.jpg
 swiper_index: 3
 date: 2022-10-23 10:00:00

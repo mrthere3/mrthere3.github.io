@@ -1,7 +1,7 @@
 ---
 title : NLP模型部署总结
-categories : python
-tags : fastapi
+categories : [python]
+tags : [fastapi]
 date: 2023-06-11 10:00:00
 updated: 2023-06-11
 cover: https://source.wjwsm.top/assassins_creed_mirage_video_game_2023-wallpaper-2560x1440%20(1).jpg

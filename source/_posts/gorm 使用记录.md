@@ -1,9 +1,9 @@
 ---
-categories: go
+categories: [go]
 cover: https://source.wjwsm.top/autumn_foggy_day-wallpaper-1600x900.jpg
 title: gorm 使用记录
 created: 2023-10-31 09:34
-updated: 2023-10-31 09:35
+date: 2023-10-31
 number headings: auto, first-level 1, max 6, 1.1
 ---
 # 1 *GORM 介绍*
