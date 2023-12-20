@@ -81,7 +81,7 @@ favicon: https://source.wjwsm.top/圣诞网站图标.png
 
 # Avatar (頭像)
 avatar:
-  img: http://source.wjwsm.top/%E5%A4%8F%E7%9B%AE%E5%A4%B4%E5%83%8F.jpg
+  img: https://source.wjwsm.top/%E5%A4%8F%E7%9B%AE%E5%A4%B4%E5%83%8F.jpg
   effect: true
 
 # Disable all banner image
@@ -307,9 +307,9 @@ gitalk:
 valine:
   appId: Yu9cn7racZ6TkMkaFStimJ3X-gzGzoHsz
   appKey: HtlIrsYx5LBHSordjrE6iqEe
-  avatar: url(http://source.wjwsm.top/白熊头像.png) # gravatar style https://valine.js.org/#/avatar
+  avatar: url(https://source.wjwsm.top/白熊头像.png) # gravatar style https://valine.js.org/#/avatar
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: http://source.wjwsm.top/Sitich30.gif #background
+  bg: https://source.wjwsm.top/Sitich30.gif #background
   visitor: false
   option:
     emojiCDN: '//i0.hdslb.com/bfs/emote/'
@@ -975,23 +975,24 @@ CDN:
     # main_css:
     # main:
     # utils:
-    # translate:
+    translate: https://cdn1.tianli0.top/npm/js-heo@1.0.6/translate/tw_cn.js
     # local_search:
-    # algolia_js:
-    # algolia_search_v4:
+    algolia_js: https://cdn1.tianli0.top/npm/js-heo@1.0.11/algolia/algolia.js
+    algolia_search: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/instantsearch.js/2.10.5/instantsearch.min.js
+    algolia_search_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/instantsearch.js/2.10.5/instantsearch.min.css
     # instantsearch_v4:
-    # pjax:
-    # gitalk:
-    # gitalk_css:
+    pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js
+    gitalk: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.js
+    gitalk_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.css
     # blueimp_md5:
-#     valine: /js/Valine.min.js
-    # disqusjs:
-    # disqusjs_css:
-    # twikoo:
-    # waline_js:
+    #     valine: /js/Valine.min.js
+    disqusjs: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/disqusjs/1.3.0/disqus.js
+    disqusjs_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/disqusjs/1.3.0/disqus.js
+    twikoo: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/twikoo/1.4.18/twikoo.all.min.js
+    waline_js: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js
     # waline_css:
-    # sharejs:
-    # sharejs_css:
+    sharejs: https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js
+    sharejs_css: https://lib.baomitu.com/social-share.js/1.0.16/css/share.min.css
     # mathjax:
     # katex:
     # katex_copytex:
@@ -999,28 +1000,28 @@ CDN:
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
     # canvas_nest:
-    # lazyload:
-    # instantpage:
-    # typed:
-    # pangu:
-    # fancybox_css_v4:
-    # fancybox_v4:
-    # medium_zoom:
-    # snackbar_css:
-    # snackbar:
+    lazyload: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js
+    instantpage: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js
+    typed: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js
+    pangu: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/pangu/4.0.7/pangu.min.js
+    fancybox_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.css
+    fancybox: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.js
+    medium_zoom: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/medium-zoom/1.0.6/medium-zoom.min.js
+    snackbar_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css
+    snackbar: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js
     # activate_power_mode:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesomeV6:
-    # flickr_justified_gallery_js:
-    # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
-    # prismjs_js:
-    # prismjs_lineNumber_js:
-    # prismjs_autoloader:
+    fontawesomeV6: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
+    justifiedGallery_js: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
+    justifiedGallery_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/justifiedGallery/3.8.1/css/justifiedGallery.min.css
+    aplayer_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
+    aplayer_js: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
+    meting_js: https://cdn1.tianli0.top/npm/js-heo@1.0.12/metingjs/Meting.min.js
+    prismjs_js: https://cdn1.tianli0.top/npm/prismjs@1.1.0/prism.js
+    prismjs_lineNumber_js: https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+    prismjs_autoloader: https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
     # artalk_js:
     # artalk_css:
 
