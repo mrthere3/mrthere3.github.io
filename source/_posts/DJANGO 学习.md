@@ -4,7 +4,6 @@ categories : [python]
 tags : [DJANGO]
 date: 2022-10-29 10:00:00
 updated: 2022-11-29
-swiper_index: 6
 cover: https://source.wjwsm.top/annie-spratt-wuc-KEIBrdE-unsplash.jpg
 ---
 *DJANGO* 学习
@@ -1265,16 +1264,3 @@ reverse() 方法 可以根据name 反向解析出这个name代表的URL
       ~~~python
       return redirect("https://")
       ~~~
-
-      
-
-
-
-
-
-
-
-
-
-
-

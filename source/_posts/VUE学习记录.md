@@ -1,9 +1,8 @@
 ---
 title : Vue学习笔记
-categories : [JS]
+categories : [Vue]
 tags : [前端]
 cover: https://source.wjwsm.top/takashi-miyazaki-ZXG8JPS8CEk-unsplash.jpg
-swiper_index: 2
 date: 2022-11-12 10:00:00
 ---
 # *VUE*单文件调试
@@ -2756,6 +2755,3 @@ function MyComponent(slots) {
 }
 
 ~~~
-
-
-

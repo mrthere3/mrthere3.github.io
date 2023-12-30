@@ -3,7 +3,6 @@ title : rabbitmq学习笔记
 categories : [python]
 tags : [MQ]
 cover: https://source.wjwsm.top/mulyadi-wYzjL5BwiEI-unsplash.jpg
-swiper_index: 3
 date: 2022-10-23 10:00:00
 ---
 #  python-RabbitMQ从入门到集群架构
@@ -611,10 +610,3 @@ rabbitmqctl clear_policy ha-all
 # 4.测试集群
 停掉主节点，其他节点依然可以提供服务
 ~~~
-
-
-
-
-
-
-

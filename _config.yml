@@ -107,9 +107,14 @@ theme: hexo-theme-butterfly
 #  repository: git@github.com:mrthere3/mrthere3.github.io.git
 #  branch: master
 
+#deploy:
+#  type: "git"
+#  repository: git@101.35.43.82:/home/git/blog
+#  branch: master
+
 deploy:
   type: "git"
-  repository: git@101.35.43.82:/home/git/blog
+  repository: git@124.220.163.107:/home/blog
   branch: master
 
 butterfly_article_double_row:
