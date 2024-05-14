@@ -128,8 +128,8 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  flink: https://source.wjwsm.top/1ff50a00bd75c.gif
+  post_page: https://source.wjwsm.top/1ff50a00bd75c.gif
 
 # A simple 404 page
 error_404:

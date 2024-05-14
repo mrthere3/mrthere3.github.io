@@ -173,7 +173,7 @@ search:
 lazyload:
   enable: true  # 是否开启图片懒加载
   onlypost: false  # 是否只对文章的图片做懒加载
-  loadingImg: https://source.wjwsm.top/loading2.jpg
+  loadingImg: https://source.wjwsm.top/1ff50a00bd75c.gif
 
 #代码压缩
 all_minifier: true
