@@ -1,7 +1,7 @@
 ---
 categories: [python]
 cover: https://source.wjwsm.top/lo_fi_city_background-wallpaper-2560x1440.jpg
-title: loguru覆盖默认logging
+title: loguru日志模块
 date: 2024-05-14
 updated: 2024-05-14
 ---
@@ -174,4 +174,4 @@ if __name__ == "__main__":
 ```
 >  使用 loguru 替换内置的 logging 模块
 ## loguru 的使用
-建议之间参考 [loguru官方文档](https://github.com/delgan/loguru)
+建议直接参考 [loguru官方文档](https://github.com/delgan/loguru),这里我就不多写了

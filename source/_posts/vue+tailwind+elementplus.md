@@ -23,7 +23,7 @@ vue 是当下最热门的前端框架之一,响应式和虚拟 dom,作为他最�
 
 
 ### 1.1.2 [elment-plus](https://element-plus.org/zh-CN/component/button.html)
-vue 只是一个空白的框架,组件是填充框架,让我们页面更加丰富,更多功能的基础.elmeng_plus 就是一个 vue3 的组件组,里面包含了大量页面所需要的各种的元素,方便开发者更加方便的挑选,组合和使用.
+vue 只是一个空白的框架,组件是填充框架,让我们页面更加丰富,更多功能的基础.elment_plus 就是一个 vue3 的组件组,里面包含了大量页面所需要的各种的元素,方便开发者更加方便的挑选,组合和使用.
 
 
 ### 1.1.3 [tailwindcss](https://tailwind.nodejs.cn/docs/installation)
