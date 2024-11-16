@@ -483,7 +483,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: 皖ICP备 2022016581号-1
+  custom_text: <a href="https://beian.miit.gov.cn/">皖ICP备 2022016581号-1</a>
   copyright: false # Copyright of theme and framework
 
 # Analysis
