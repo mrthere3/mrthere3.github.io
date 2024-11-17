@@ -92,12 +92,9 @@ import (
     "github.com/gin-gonic/gin"
 )
 
-//go:embed static/*
-var staticFiles embed.FS
-
-
-
 func NewFileSystem() http.FileSystem {  
+
+//go:embed dist/*
 var files embed.FS  
 subfs, _ := fs.Sub(files, "dist")  
 return http.FS(subfs)
